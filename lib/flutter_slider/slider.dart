@@ -1469,14 +1469,14 @@ class _FlutterSliderState extends State<FlutterSlider>
             axis: widget.axis,
             child: Stack(
               clipBehavior: Clip.none,
-              children: <Widget?>[
+              children: [
                 _tooltip(
                     side: 'left',
                     value: _outputLowerValue,
                     opacity: _leftTooltipOpacity,
                     animation: _leftTooltipAnimation),
                 leftHandler,
-              ] as List<Widget>,
+              ],
             ),
             feedback: Container()),
         onPointerMove: (_) {
@@ -1589,14 +1589,14 @@ class _FlutterSliderState extends State<FlutterSlider>
             axis: Axis.horizontal,
             child: Stack(
               clipBehavior: Clip.none,
-              children: <Widget?>[
+              children: [
                 _tooltip(
                     side: 'right',
                     value: _outputUpperValue,
                     opacity: _rightTooltipOpacity,
                     animation: _rightTooltipAnimation),
                 rightHandler,
-              ] as List<Widget>,
+              ],
             ),
             feedback: Container(
 //                            width: 20,
