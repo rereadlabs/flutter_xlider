@@ -2,17 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_xlider/flutter_slider/handler.dart';
-import 'package:flutter_xlider/models/animation_handler.dart';
-import 'package:flutter_xlider/models/enums.dart';
-import 'package:flutter_xlider/models/fixed_value.dart';
-import 'package:flutter_xlider/models/hatch_mark.dart';
-import 'package:flutter_xlider/models/ignore_steps.dart';
-import 'package:flutter_xlider/models/slider_box.dart';
-import 'package:flutter_xlider/models/slider_handler.dart';
-import 'package:flutter_xlider/models/slider_step.dart';
-import 'package:flutter_xlider/models/tooltip.dart';
-import 'package:flutter_xlider/models/tooltip_box.dart';
-import 'package:flutter_xlider/models/track_bar.dart';
+import 'package:flutter_xlider/models/models.dart';
 
 class FlutterSlider extends StatefulWidget {
   const FlutterSlider({
