@@ -2215,8 +2215,8 @@ class _FlutterSliderState extends State<FlutterSlider>
   }
 
   void _callbacks(String callbackName, int handlerIndex) {
-    dynamic lowerValue = _outputLowerValue;
-    dynamic upperValue = _outputUpperValue;
+    var lowerValue = _outputLowerValue;
+    var upperValue = _outputUpperValue;
     if (widget.rtl == true || widget.rangeSlider == false) {
       lowerValue = _outputUpperValue;
       upperValue = _outputLowerValue;
